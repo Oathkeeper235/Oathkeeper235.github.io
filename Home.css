@@ -1,0 +1,118 @@
+body {
+    background-image: url("images/pozadina.jpg");
+    background-repeat: no-repeat;
+}
+
+li {
+    list-style-type: none;
+    font-size: 28px;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    overflow: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navbar a:hover {
+    background-color: rgba(0,0,0,.3);
+    border-radius: 10px;
+    color: white;
+}
+
+
+.active {
+    border-radius: 10px;
+    background-color: #20888c;
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+#ime {
+    font-size: 28px;
+    color: bisque;
+    padding-left: 20px;
+}
+
+div #education {
+    font-size: 19px;
+    color: #41b5b3;
+}
+
+div #interests {
+    font-size: 19px;
+    color: #41b5b3;
+}
+
+div #skills {
+    font-size: 19px;
+    color: #41b5b3;
+}
+
+#content {
+    background-color: rgba(0,0,0, .5);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 49%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: 43px;
+    border-radius: 20px;
+}
+
+#main-content img {
+    margin-top: 145px;
+    margin-right: 150px;
+    border-radius: 20px;
+}
+
+#footer {
+    background-color: rgba(0,0,0, .5);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 87%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 15px 10px 10px 22px;
+    max-width: 1200px;
+    margin-left: 43px;
+    border-radius: 20px;
+}
+
+#footer p a {
+    color: bisque;
+}
+
+#footer p span {
+    color: #4cb6b3;
+}
